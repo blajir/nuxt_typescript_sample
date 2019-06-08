@@ -9,7 +9,7 @@
 
 <script lang="ts">
 import { Component, Vue, Prop } from 'vue-property-decorator'
-import { Todo } from '~/models/Todo'
+import { Todo } from '~/models'
 
 @Component
 export default class TodoListItem extends Vue {

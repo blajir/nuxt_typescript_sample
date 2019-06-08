@@ -16,7 +16,7 @@
 import { Component, Vue } from 'vue-property-decorator'
 import TodoList from '~/components/TodoList.vue'
 import TodoListItem from '~/components/TodoListItem.vue'
-import { Todo } from '~/models/Todo'
+import { Todo } from '~/models'
 
 const components = {
   TodoList,
