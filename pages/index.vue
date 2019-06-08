@@ -36,7 +36,7 @@ export default class Index extends Vue {
     {
       id: 2,
       text: 'read the magazine.',
-      complete: false
+      complete: true
     }
   ]
 }

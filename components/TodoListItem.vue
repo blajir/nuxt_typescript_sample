@@ -1,5 +1,9 @@
 <template lang="pug">
   li
+    input(
+      type="checkbox"
+      v-model="todo.complete"
+    )
     |{{ todo.text }}
 </template>
 
