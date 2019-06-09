@@ -13,6 +13,7 @@ import { Todo } from '~/models'
 
 @Component
 export default class TodoListItem extends Vue {
-  @Prop(Array) readonly todo!: Todo[] | undefined
+  @Prop() private todo: Todo[] | undefined
+  // @Prop(Array) readonly todo!: Todo[] | undefined
 }
 </script>
